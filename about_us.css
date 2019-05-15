@@ -1,0 +1,164 @@
+@charset "UTF-8";
+
+body {
+  font-family: 'Lato', sans-serif;
+  font-family: 'Noto Serif JP', serif;
+  padding: 0;
+  margin: 0;
+}
+
+h2{
+  display:inline-block;
+  padding: 2px;
+  background-color: black;
+  color:white;
+}
+
+.header_logo {
+  margin-left: 150px;
+}
+
+.nav {
+  padding-top: 70px;
+  margin-right: 150px;
+}
+
+.nav ul li {
+  list-style: none;
+  display: inline-block;
+  margin-right: 50px;
+  font-size: 20px;
+}
+
+.nav ul li a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.nav ul li a:hover {
+  text-decoration: underline;
+}
+
+.main_container{
+  width:90%;
+  border:1px solid black;
+  margin-right: auto;
+  margin-left: auto;
+  padding:2em 1em 2em 1em;
+　background-color:red;
+text-align: center;
+}
+
+.concept{
+  border-bottom:1px dotted black;
+  padding-bottom: 2em
+}
+
+.concept p{
+  font-size:15px;
+}
+
+.explain{
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-bottom:1px dotted black;
+}
+
+.explain{
+  margin-top: 3em;
+}
+
+.explain_coffee_pic img{
+  width:400px;
+  height:300px;
+}
+
+.explain_coffee_text{
+  width: 700px;
+  margin-bottom: 2em;
+}
+
+.explain_bread{
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+.explain_bread_pic img{
+  width:400px;
+  height:300px;
+}
+
+.explain_bread_text{
+  width: 700px;
+}
+
+
+.staff_container{
+  margin-top: 2em;
+  margin-bottom: 2em;
+  display: -webkit-box;
+  display:flex;
+}
+
+.staff_container img{
+  width:300px;
+  height:400px;
+}
+
+.staff_container .staff1,.staff2,.staff3{
+  width:100%;
+  padding:2em;
+  border:1px solid green;
+  float:left;
+  overflow: hidden;
+  height:600px;
+  -webkit-box-flex: 1;
+  box-flex:1;
+}
+
+.footer {
+  text-align: center;
+  padding: 100px 200px 50px;
+}
+
+.footer ul li {
+  list-style: none;
+  display: inline-block;
+  margin-right: 50px;
+}
+
+.footer ul li a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.footer ul li a:hover {
+  text-decoration: underline;
+}
+
+.footer_logo img {
+  width: 100px;
+  height: auto;
+}
+
+/*overflow: hidden*/
+
+.over {
+  overflow: hidden;
+}
+
+/*フロート設定*/
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.d{
+  border:1px solid blue;
+  margin-left: 0;
+}
